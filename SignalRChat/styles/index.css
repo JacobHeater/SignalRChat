@@ -1,0 +1,9 @@
+﻿.user-list {
+    float: left;
+    width: 30%;
+}
+
+.chat-main {
+    float: right;
+    width: 70%;
+}

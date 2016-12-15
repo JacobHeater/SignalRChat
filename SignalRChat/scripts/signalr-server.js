@@ -15,15 +15,25 @@
 
         return {
             sendChatMessage: sendChatMessage,
-            registerUser: registerUser
+            registerUser: registerUser,
+            queryUsers: queryUsers,
+            indicatePresence: indicatePresence
         };
 
         function registerUser(userName) {
-            chatHub.registerUser(userName);
+            return chatHub.registerUser(userName);
         }
 
         function sendChatMessage(messageModel) {
-            chatHub.chatMessage(messageModel);
+            return chatHub.chatMessage(messageModel);
+        }
+
+        function queryUsers() {
+            return chatHub.queryUsers();
+        }
+
+        function indicatePresence(userName) {
+            return chatHub.indicatePresence(userName);
         }
 
     }

@@ -30,7 +30,7 @@
                     <input type="button" id="btnSendMessage" value="Send" />
                 </div>
 
-                <div class="message-receive-container">
+                <div class="messages-received-container">
                     <div id="messagesReceived"></div>
                 </div>
             </div>

@@ -109,8 +109,11 @@
     <Content Include="scripts\jquery.signalR-2.2.1.js" />
     <Content Include="scripts\jquery.signalR-2.2.1.min.js" />
     <Content Include="scripts\Models\Message.js" />
+    <Content Include="scripts\query-string.js" />
+    <Content Include="scripts\resources.js" />
     <Content Include="scripts\signalr-client.js" />
     <Content Include="scripts\signalr-server.js" />
+    <Content Include="scripts\string.js" />
     <Content Include="styles\index.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -139,7 +142,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52023</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

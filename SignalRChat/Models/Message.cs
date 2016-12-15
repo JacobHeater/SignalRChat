@@ -9,6 +9,6 @@ namespace SignalRChat.Models
     {
         public string UserName { get; set; }
         public string Content { get; set; }
-        public DateTime SendTime { get; set; }
+        public string SendTime { get; set; }
     }
 }

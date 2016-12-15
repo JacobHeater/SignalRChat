@@ -1,9 +1,67 @@
-﻿.user-list {
-    float: left;
-    width: 30%;
+﻿html {
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.user-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    padding-top: 15px;
+    border-right: 1px solid black;
+}
+
+.user {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .chat-main {
-    float: right;
-    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    padding-left: 10px;
+    width: 75%;
+}
+
+#tbUserName {
+    width: 35%;
+}
+
+.user-name-container {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+#tbChatInput {
+    width: 80%;
+    height: 30vh;
+    max-width: 80%;
+    max-height: 30vh;
+    margin-bottom: 15px;
+}
+
+.messages-received-container {
+    margin-top: 25px;
+}
+
+.messages-received {
+    max-height:  40vh;
+    overflow-y: auto;
+}
+
+.msg .date {
+    font-weight: bold;
+}
+
+.msg .user {
+    font-weight: bold;
+    color: rgb(27, 48, 172);
 }
